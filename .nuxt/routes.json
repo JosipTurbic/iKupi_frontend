@@ -1,0 +1,32 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "profil",
+    "path": "/profil",
+    "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\profil.vue",
+    "chunkName": "pages/profil"
+  },
+  {
+    "name": "signup",
+    "path": "/signup",
+    "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\signup.vue",
+    "chunkName": "pages/signup"
+  },
+  {
+    "name": "products-id",
+    "path": "/products/:id?",
+    "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\products\\\\_id.vue",
+    "chunkName": "pages/products/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

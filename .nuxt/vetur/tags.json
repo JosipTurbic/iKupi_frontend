@@ -1,0 +1,17 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "Pocetna": {
+    "description": "Auto imported from components/Pocetna.vue"
+  },
+  "Search": {
+    "description": "Auto imported from components/Search.vue"
+  }
+}
