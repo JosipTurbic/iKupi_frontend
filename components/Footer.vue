@@ -1,5 +1,4 @@
 <template>
-  <!--FOOTER-->
   <footer>
     <div class="navLeftFooter">
       
@@ -39,5 +38,4 @@
     </div>
     
   </footer>
-  <!--/FOOTER-->
 </template>

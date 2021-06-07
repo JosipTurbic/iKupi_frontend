@@ -3,7 +3,7 @@
 <div class="unified_widget pageBanner">
 <h1>iKupi</h1>
  <p>
-     Istraži stranicu (dodati teksjt)
+     Najbolja ponuda miješanih proizvoda u Hrvatskoj!
  </p>
 </div>
                     <div>

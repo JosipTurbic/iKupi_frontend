@@ -10,7 +10,7 @@
             <div class="a-box a-spacing-extra-large">
               <div class="a-box-inner">
                 <h1 class="a-spacing-small">Napravi svoj račun!</h1>
-                <!-- Your Name -->
+                <!-- Ime -->
                 <div class="a-row a-spacing-base">
                   <label for="ap_customer_name" class="a-form-label">Vaše ime</label>
                   <input
@@ -30,7 +30,7 @@
                     v-model="email"
                   />
                 </div>
-                <!-- Password -->
+                <!-- Lozinka -->
                 <div class="a-row a-spacing-base">
                   <label for="ap_customer_name" class="a-form-label">Lozinka</label>
                   <input

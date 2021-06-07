@@ -11,3 +11,4 @@ You can directly use them in pages and other components without the need to impo
 - `<Navbar>` | `<navbar>` (components/Navbar.vue)
 - `<Pocetna>` | `<pocetna>` (components/Pocetna.vue)
 - `<Search>` | `<search>` (components/Search.vue)
+- `<Sidebar>` | `<sidebar>` (components/Sidebar.vue)

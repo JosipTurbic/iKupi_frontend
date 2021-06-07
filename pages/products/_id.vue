@@ -7,7 +7,7 @@
                 <ul class="d-unordered-list a-horizontal a-size-small">
                     <li>
                         <span class="a-list-item">
-                            <a class="a-link-normal a-color-tertiary" href="#">{{product.category.type}}</a>
+        <a class="a-link-normal a-color-tertiary" href="#">{{product.category.type}}</a> 
                         </span>
                     </li>
                     <li>
@@ -52,8 +52,8 @@
                                  <div class="clearfix">
                                      <div class="float-left">
                                          <form>
-                                             <input type="radio" id="test1" name="radio-group checked"/>
-                                             <label for="test1">Kupi</label>
+                                             
+                                             <label for="test1">Cijena</label>
                                          </form>
                                      </div>
                                      <!-- cijena -->
@@ -67,15 +67,6 @@
 
                         <div class="a-section a-spacing-none">
                             <div class="row">
-                                <div class="col-sm-5 col-5">
-                                    <select>
-                                        <option value="1">Količina: &nbsp; 1</option>
-                                        <option value="2">Količina: &nbsp; 2</option>
-                                        <option value="3">Količina: &nbsp; 3</option>
-                                        <option value="4">Količina: &nbsp; 4</option>
-                                        <option value="5">Količina: &nbsp; 5</option>
-                                    </select>
-                                </div>
                             </div>
                         </div>
 
@@ -91,7 +82,7 @@
                         </div>
 
                         <div class="a-section">
-                            <div class="a-button-stack">
+                            <div class="a-button-stack" @click="addProductToCart(product)">
                                 <span class="a-spacing-small a-button-primary a-button-icon">
                                     <span class="a-button-inner">
                                         <input type="submit" name="submit.add-to-cart" class="a-button-input"/>
@@ -101,38 +92,14 @@
                             </div>
                         </div>
 
-                          <div class="a-section">
-                            <div class="a-button-stack">
-                                <span class="a-spacing-small a-button-primary a-button-icon">
-                                    <span class="a-button-inner">
-                                        <input type="submit" name="submit.add-to-cart" class="a-button-input"/>
-                                        <span class="a-button-text">Kupi odmah</span>
-                                    </span>
-                                </span>
-                            </div>
-                        </div>
-                            <br />
-                            <hr />
-                            <div class="a-section">
-                                <div class="clearfix">
-                                    <div class="float-left">
-                                        <form>
-                                            <input type="radio" id="test2" name="radio-group"/>
-                                            <label for="test2">Kupi</label>
-                                        </form>
-                                    </div>
-                                    <div class="float-right">
-                                        <span class="a-color-base offer-price a-text-normal">{{product.price}} HRK</span>
-                                    </div>
-                                </div>
-                            </div>
+                          
                          </div>
                      </div>
                          </div>
                      </div>
 
                  </div>
-                 <!--Cijena proizvoda-->
+                
                 
                  
             </div>
@@ -141,6 +108,7 @@
     </main>
 </template>
   <script>
+  import {mapActions} from "vuex";
 export default {
      async asyncData({$axios, params}){
          try{
@@ -154,6 +122,9 @@ export default {
          } catch (err) {
              console.log(err);
          }
-     }
+     },
+     methods: {
+    ...mapActions(["addProductToCart"])
+  }
 };
 </script> 

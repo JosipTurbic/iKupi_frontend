@@ -13,5 +13,8 @@
   },
   "Search": {
     "description": "Auto imported from components/Search.vue"
+  },
+  "Sidebar": {
+    "description": "Auto imported from components/Sidebar.vue"
   }
 }

@@ -43,16 +43,17 @@
                             </span>
                             </nuxt-link>
                             </template>
-                            <nuxt-link to="/orders" class="nav-a nav-a-2 nav-single-row-link">
+                            
+                            <nuxt-link v-if="$auth.$state.loggedIn" to="/orders" class="nav-a nav-a-2 nav-single-row-link">
                             <span class="nav-line-1"></span>
                             <span class="nav-line-2">Narudžbe</span>
                             </nuxt-link>
-
-                            <nuxt-link to="/cart" class="nav-a nav-a-2" id="nav-cart">
+                           
+                            <nuxt-link v-if="$auth.$state.loggedIn" to="/cart" class="nav-a nav-a-2" id="nav-cart">
                             <span aria-hidden="true" class="nav-line-1"></span>
                             <span aria-hidden="true" class="nav-line-2">Košarica</span>
                             <span class="nav-cart-icon nav-sprite"></span>
-                            <span id="nav-cart-count" aria-hidden="true" class="nav-cart-count nav-cart-0">0</span>
+                            <span id="nav-cart-count" aria-hidden="true" class="nav-cart-count nav-cart-0">{{getCartLength}}</span>
                             </nuxt-link>
                             
                             
@@ -72,10 +73,14 @@
 </template>
 
 <script>
+import {mapGetters} from "vuex";
 import Search from "~/components/Search";
 export default {
     components: {
         Search
+    },
+    computed: {
+        ...mapGetters(["getCartLength"])
     }
     
 }

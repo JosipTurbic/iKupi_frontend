@@ -5,7 +5,7 @@
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <div class="a-spacing-top-medium"></div>
-                <h2>Profil</h2>
+                <h2>Moj profil</h2>
                 <a href="#" @click="onLogout">Odjavi se</a>
                 <form>
                     <!-- Ime -->
@@ -86,7 +86,8 @@ export default {
             }
         },
         async onLogout(){
-            await this.$auth.logout()
+            await this.$auth.logout();
+            this.$router.push("/");
         }
     }
    

@@ -41,7 +41,6 @@
                       <span class="a-button-text" @click="onLogin">Prijava</span>
                     </span>
                   </span>
-                  
                 </div>
                 <hr />
                 <div class="a-row">
@@ -73,15 +72,13 @@ export default {
   methods: {
     async onLogin() {
       try {
-       
-          this.$auth.loginWith("local", {
-            data: {
-              email: this.email,
-              password: this.password
-            }
-          });
-          this.$router.push("/");
-        
+        this.$auth.loginWith("local", {
+          data: {
+            email: this.email,
+            password: this.password
+          }
+        });
+        this.$router.push("/");
       } catch (err) {
         console.log(err);
       }
