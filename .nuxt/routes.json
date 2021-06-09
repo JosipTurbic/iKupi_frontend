@@ -3,126 +3,108 @@
     "name": "address",
     "path": "/address",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\address\\\\index.vue",
-    "chunkName": "pages/address/index",
-    "_name": "_5b5e5df0"
+    "chunkName": "pages/address/index"
   },
   {
     "name": "cart",
     "path": "/cart",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\cart.vue",
-    "chunkName": "pages/cart",
-    "_name": "_4c97f2ca"
+    "chunkName": "pages/cart"
   },
   {
     "name": "higijena",
     "path": "/higijena",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\higijena.vue",
-    "chunkName": "pages/higijena",
-    "_name": "_3f5baa7b"
+    "chunkName": "pages/higijena"
   },
   {
     "name": "hrana",
     "path": "/hrana",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\hrana.vue",
-    "chunkName": "pages/hrana",
-    "_name": "_f250f960"
+    "chunkName": "pages/hrana"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_544bdaa2"
+    "chunkName": "pages/login"
   },
   {
     "name": "orders",
     "path": "/orders",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\orders.vue",
-    "chunkName": "pages/orders",
-    "_name": "_7e54738f"
+    "chunkName": "pages/orders"
   },
   {
     "name": "payment",
     "path": "/payment",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\payment.vue",
-    "chunkName": "pages/payment",
-    "_name": "_5c652b4c"
+    "chunkName": "pages/payment"
   },
   {
     "name": "pice",
     "path": "/pice",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\pice.vue",
-    "chunkName": "pages/pice",
-    "_name": "_1fcd0245"
+    "chunkName": "pages/pice"
   },
   {
     "name": "placeorder",
     "path": "/placeorder",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\placeorder.vue",
-    "chunkName": "pages/placeorder",
-    "_name": "_b1f9fd5e"
+    "chunkName": "pages/placeorder"
   },
   {
     "name": "profil",
     "path": "/profil",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\profil.vue",
-    "chunkName": "pages/profil",
-    "_name": "_0e72cb66"
+    "chunkName": "pages/profil"
   },
   {
     "name": "search",
     "path": "/search",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\search.vue",
-    "chunkName": "pages/search",
-    "_name": "_25da5cd2"
+    "chunkName": "pages/search"
   },
   {
     "name": "signup",
     "path": "/signup",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\signup.vue",
-    "chunkName": "pages/signup",
-    "_name": "_31c23042"
+    "chunkName": "pages/signup"
   },
   {
     "name": "slatkisi",
     "path": "/slatkisi",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\slatkisi.vue",
-    "chunkName": "pages/slatkisi",
-    "_name": "_3c570d2a"
+    "chunkName": "pages/slatkisi"
   },
   {
     "name": "sport",
     "path": "/sport",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\sport.vue",
-    "chunkName": "pages/sport",
-    "_name": "_027c4d3a"
+    "chunkName": "pages/sport"
   },
   {
     "name": "address-add",
     "path": "/address/add",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\address\\\\add.vue",
-    "chunkName": "pages/address/add",
-    "_name": "_61b3b0d7"
+    "chunkName": "pages/address/add"
   },
   {
     "name": "address-id",
     "path": "/address/:id",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\address\\\\_id.vue",
-    "chunkName": "pages/address/_id",
-    "_name": "_006f7570"
+    "chunkName": "pages/address/_id"
   },
   {
     "name": "products-id",
     "path": "/products/:id?",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\products\\\\_id.vue",
-    "chunkName": "pages/products/_id",
-    "_name": "_570c7a1c"
+    "chunkName": "pages/products/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\webapps\\\\ikupi\\\\frontend_korisnik\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_0c326f98"
+    "chunkName": "pages/index"
   }
 ]

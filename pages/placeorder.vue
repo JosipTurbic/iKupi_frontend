@@ -120,12 +120,8 @@
                     </div>
                     <!-- Ukupna cijena s dostavom -->
                     <div class="row">
-                      <div class="col-sm-6">Ukupna cijena bez poreza:</div>
+                      <div class="col-sm-6">Ukupna cijena s porezom:</div>
                       <div class="col-sm-6 text-right">{{getCartTotalPriceWithShipping}} HRK</div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-6">Porez ukupno:</div>
-                      <div class="col-sm-6 text-right">USD 0.00</div>
                     </div>
                     <hr />
                     <div class="row">
