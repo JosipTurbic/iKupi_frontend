@@ -6,9 +6,8 @@
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
+# serve with hot reload at localhost:8081
+$ npm run dev -- --port 8081
 # build for production and launch server
 $ npm run build
 $ npm run start
