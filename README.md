@@ -17,3 +17,5 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+# youtube video of my project
+https://www.youtube.com/watch?v=2ZcPMZ1iwJc
